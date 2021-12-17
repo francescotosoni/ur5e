@@ -13,7 +13,7 @@ Two versions of the pick and place and object inspection have been realized (con
 
 The programs contained in this repo are developed via [RoboDK](https://robodk.com) software. So, in order to use the ones in the [simulation](/simulation) folder (specially for online programming), the download and installation is required. The object inspection is merged in the pick and place file. 
 
-However, it is possible to execute the scripts (`.ur` and `.script` files) directly from the robot teach pendant. These files are contained in [scripts](/scripts) folder. 
+However, it is possible to execute the scripts (`.urp` and `.script` files) directly from the robot teach pendant. These files are contained in [scripts](/scripts) folder. 
 
 Last but not least, the complete [file](/physical_tasks/elaborato.rdk) which contains all the three programs is provided. Use _only this file_ to execute the tasks on the physical robot. Hit right click on the task in the station and click `"Send program to robot"` option to execute the program on the UR5e. 
 
