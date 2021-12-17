@@ -9,7 +9,7 @@ In particular, the tasks are:
 
 ## Usage
 
-The programs contained in this repo are developed via [RoboDK](https://robodk.com) software. So, in order to use the ones in the [simulation](/simulation) folder (specially for online programming), the download and installation is required. 
+The programs contained in this repo are developed via [RoboDK](https://robodk.com) software. So, in order to use the ones in the [simulation](/simulation) folder (specially for online programming), the download and installation is required. The object inspection is merged in the pick and place file. 
 
 However, it is possible to execute the scripts (`.ur` and `.script` files) directly from the robot teach pendant. These files are contained in [scripts](/scripts) folder. 
 
