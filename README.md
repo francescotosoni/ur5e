@@ -7,6 +7,8 @@ In particular, the tasks are:
 - Glue Ceiling path;
 - Object Inspection.
 
+Two versions of the pick and place and object inspection have been realized (considered different pick and place positions). 
+
 ## Usage
 
 The programs contained in this repo are developed via [RoboDK](https://robodk.com) software. So, in order to use the ones in the [simulation](/simulation) folder (specially for online programming), the download and installation is required. The object inspection is merged in the pick and place file. 
