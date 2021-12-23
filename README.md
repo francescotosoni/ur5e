@@ -17,6 +17,8 @@ In order to define robot targets, __three reference frames__ have been realized:
 
 In the projects there are two versions of pick and place and object inspection: they differ in the bay of departure and arrival (I identify as Bay 1 the one in front of the robot and Bay 2 the one closer to the camera setting). The glue ceiling instead is performed only at Bay 1, following an "M" trajectory. 
 
+![ICE_lab_sim](https://user-images.githubusercontent.com/39372510/147255903-a3d13f86-5f91-41c8-922a-50614133d429.jpg)
+
 ## Usage
 
 There are three folders in this project: 
