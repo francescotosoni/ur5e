@@ -15,9 +15,11 @@ Joint moves (MoveJ) are used for the larger moves, while linear moves (MoveL) ar
 
 In order to define robot targets, __three reference frames__ have been realized: one for each bay and one near the camera. Starting from those, the various targets useful for each task have been defined. An approach target has been set for each bay, then the robot can proceed with the approach to the position of the lego block (pick and place and object inspection) or to the first point of trajectory (glue ceiling). By doing this, we avoid making movements that are dangerous to the surrounding environment and to the robot itself. 
 
-In the projects there are two versions of pick and place and object inspection: they differ in the bay of departure and arrival (I identify as Bay 1 the one in front of the robot and Bay 2 the one closer to the camera setting). The glue ceiling instead is performed only at Bay 1, following an "M" trajectory. 
+In the projects there are two versions of pick and place and object inspection: they differ in the bay of departure and arrival (I identify as Bay 1 the one in front of the robot and Bay 2 the one closer to the camera setting). 
 
 ![ICE_lab_sim](https://user-images.githubusercontent.com/39372510/147255903-a3d13f86-5f91-41c8-922a-50614133d429.jpg)
+
+The glue ceiling instead is performed only at Bay 1, following an "M" trajectory. 
 
 ## Usage
 
