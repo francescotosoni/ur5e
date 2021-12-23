@@ -34,7 +34,9 @@ However, it is possible to execute the [scripts](/scripts) (`.urp` and `.script`
 
 Last but not least, the complete [file](/physical_tasks/elaborato.rdk) which contains all the three programs is provided. Use _only this file_ to execute the tasks on the physical robot. Open the project in RoboDK, hit right click on the task in the station and click `"Send program to robot"` option to execute the program on the UR5e. 
 
- __NOTE__: it is possible to perform both online and offline programming only for the glue ceiling task, while pick n place and object inspection can be performed only offline because of the gripper control. 
+![ICE_lab](https://user-images.githubusercontent.com/39372510/147258168-030011b7-3957-47f3-a077-07071058f162.jpg)
+
+ __NOTE__: to obtain the maximum fluidity in the movements it is recommended the use of offline programming, while pick n place and object inspection can be performed only offline because of the gripper control. 
 
 :warning: __NOTE__: execute these scripts ***only on UR5e robot in the ICE lab***. :warning:
 
