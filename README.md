@@ -24,5 +24,5 @@ Last but not least, the complete [file](/physical_tasks/elaborato.rdk) which con
 
  __NOTE__: it is possible to perform both online and offline programming only for the glue ceiling task, while pick n place and object inspection can be performed only offline because of the gripper control. 
 
-:warning: __NOTE__: this scripts are ***only for UR5e robot in the ICE lab***. :warning:
+:warning: __NOTE__: execute these scripts ***only on UR5e robot in the ICE lab***. :warning:
 
