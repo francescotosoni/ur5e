@@ -16,9 +16,9 @@ There are three folders in this project:
 - [scripts](/scripts);
 - [physical tasks](/physical_tasks).
 
-The programs contained in this repo are developed via [RoboDK](https://robodk.com) software. So, in order to simulate on the pc the tasks, the download and installation is required (the object inspection and pick and place tasks are merged in the same file). 
+The programs contained in this repo are developed via [RoboDK](https://robodk.com) software. So, in order to simulate the tasks on the pc environment, the download and installation is required. The object inspection and pick and place tasks are merged in the same [file](simulation/pick_&_place.rdk), while the object inspection is o a separated [one](/simulation/glue_ceiling.rdk). 
 
-However, it is possible to execute the scripts (`.urp` and `.script` files) directly from the robot teach pendant. The software installation is not required following this execution path. 
+However, it is possible to execute the [scripts](/scripts) (`.urp` and `.script` files) directly from the robot teach pendant, transferring the files. The software installation is not required following this execution path. 
 
 Last but not least, the complete [file](/physical_tasks/elaborato.rdk) which contains all the three programs is provided. Use _only this file_ to execute the tasks on the physical robot. Open the project in RoboDK, hit right click on the task in the station and click `"Send program to robot"` option to execute the program on the UR5e. 
 
