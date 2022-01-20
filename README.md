@@ -11,7 +11,7 @@ Two versions of the pick and place and object inspection have been realized (con
 
 ## Technical Details
 
-Joint moves (MoveJ) are used for the larger moves, while linear moves (MoveL) are used only in the glue ceiling, to maintain more precise trajectories.
+Joint moves (MoveJ) are used for the larger moves, while linear moves (MoveL) are used only when maintaining more precise trajectories (glue ceiling task and pick move after approach place movement after place move).
 
 In order to define robot targets, __three reference frames__ have been realized: one for each bay and one near the camera. Starting from those, the various targets useful for each task have been defined. An approach target has been set for each bay, then the robot can proceed with the approach to the position of the lego block (pick and place and object inspection) or to the first point of trajectory (glue ceiling). By doing this, we avoid making movements that are dangerous to the surrounding environment and to the robot itself. 
 
